@@ -2,8 +2,8 @@
 
 int main() {
 	int a, b;
-	while (scanf("%d %d", &a, &b) != EOF) {
+	while (scanf("%d %d", a, b) != EOF) {
 		printf("%d", a + b);
 	}
-	return 0;
+	return 0
 }

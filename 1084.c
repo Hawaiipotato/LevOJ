@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 int main() {
-	int a, b;
+	int a,b;
+	long c;
 	while (scanf("%d %d", &a, &b) != EOF) {
-		printf("%d", a + b);
+		c=(long)(a+b);
+		printf("%d\n", c);
 	}
 	return 0;
 }

@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main() {
-	int a, b;
+	int a,b,c;
 	while (scanf("%d %d", &a, &b) != EOF) {
-		printf("%d", a + b);
+		c=a+b;
+		printf("%d\n\n", c);
 	}
 	return 0;
 }
